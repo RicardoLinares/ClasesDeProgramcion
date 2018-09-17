@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1536591331 source:/home/alumno/Documentos/Linares/Laboratorio/Cadenas/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdio_ext.h>
+

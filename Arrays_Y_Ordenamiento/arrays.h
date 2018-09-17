@@ -1,0 +1,3 @@
+
+
+int inilizationArrays(int[], int);

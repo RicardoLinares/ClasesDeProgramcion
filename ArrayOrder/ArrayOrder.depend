@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1536585788 source:/home/alumno/Documentos/Linares/Laboratorio/ArrayOrder/main.c
+	<stdio.h>
+	<stdlib.h>
+	"arrays.h"
+
+1536585734 /home/alumno/Documentos/Linares/Laboratorio/ArrayOrder/arrays.h
+
+1536586116 source:/home/alumno/Documentos/Linares/Laboratorio/ArrayOrder/arrays.c
+	<stdio.h>
+	<stdlib.h>
+	"arrays.h"
+
