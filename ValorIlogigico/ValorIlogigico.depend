@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1537276943 source:/home/alumno/Escritorio/ValorIlogigico/main.c
+	<stdio.h>
+	<stdio_ext.h>
+	<unistd.h>
+	<termios.h>
+	<stdlib.h>
+

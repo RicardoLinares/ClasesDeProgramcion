@@ -1,4 +1,4 @@
-#define TAM_NOMBRE 51
+#define TAM_NOMBRE 21
 
 typedef struct
 {
@@ -7,9 +7,10 @@ typedef struct
     char nombre[TAM_NOMBRE];
     float altura;
     int nota;
+    int estado;
 }sStudent;
 
-void newLegajo(sStudent*, char[]);
+void newLintegajo(sStudent*, char[]);
 
 void newName(sStudent*, char[]);
 
@@ -24,3 +25,6 @@ void mostrarListaDeAlumnos(sStudent[], int);
 
 void mostrarAlumno(sStudent);
 void cargarAlumno(sStudent*);
+
+
+int buscarLibre(sStudent[], int, int);

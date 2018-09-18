@@ -4,7 +4,7 @@
 #include <string.h>
 #include "structAlumno.h"
 
-#define CANTIDAD 4
+#define CANTIDAD 10
 
 int main()
 {

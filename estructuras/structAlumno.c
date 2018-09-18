@@ -71,6 +71,18 @@ void cargarListaDeAlumnos(sStudent studentList[], int size)
     }
 }
 
+// tambien crear un menu;
+
+// hacer una funcion que busque un alumno por legajo
+// mostrar un grilla de alumnos
+// buscar el alumno
+// mostrar el alumno
+// pedir nueva nota
+// preguntar si esta seguro de realizar los cambios
+//if si la asigno
+//else aviso que cancelo la modificacion
+// si no se encuetra tonses mandar un error
+
 
 void mostrarListaDeAlumnos(sStudent studentList[], int size)
 {
@@ -93,7 +105,7 @@ void ordernarAlumnos(sStudent students[], int size)
             auxiliar = students[i];
             for(j=i-1; strcmp(auxiliar.nombre, students[j].nombre) < 0 && j >= 0; j--)
             {
-                students[j] = students[j];
+                students[j+1] = students[j];
             }
             students[j+1] = auxiliar;
         }
