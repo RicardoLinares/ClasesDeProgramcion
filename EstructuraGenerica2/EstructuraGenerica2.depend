@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1540650026 source:d:\linares\clasesdeprogramcion\estructuragenerica2\estructura.c
+	"Estructura.h"
+
+1540649915 d:\linares\clasesdeprogramcion\estructuragenerica2\estructura.h
+	<stdio.h>
+	<stdlib.h>
+
+1540650431 source:d:\linares\clasesdeprogramcion\estructuragenerica2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Estructura.h"
+

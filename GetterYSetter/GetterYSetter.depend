@@ -1,14 +1,14 @@
 # depslib dependency file v1.0
-1540307050 source:d:\linares\clasesdeprogramcion\getterysetter\main.c
+1540643138 source:d:\linares\clasesdeprogramcion\getterysetter\main.c
 	<stdio.h>
 	<stdlib.h>
 	"persona.h"
 
-1540307088 d:\linares\clasesdeprogramcion\getterysetter\persona.h
+1540643138 d:\linares\clasesdeprogramcion\getterysetter\persona.h
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 
-1540307011 source:d:\linares\clasesdeprogramcion\getterysetter\persona.c
+1540643138 source:d:\linares\clasesdeprogramcion\getterysetter\persona.c
 	"persona.h"
 

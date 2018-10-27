@@ -31,7 +31,7 @@ void ePersona_mostrarPersona(ePersona* this)
 
 int ePersona_setId(ePersona* this ,int id)
 {
-    int estado = 1;
+    int estado = 0;
 
     if(this != NULL && id > 0)
     {
