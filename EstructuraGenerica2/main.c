@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "Estructura.h"
-
+#define TAMBASE 4
 int main()
 {
-    eGenerica asd;
+    eGenerica* array;
 
-    eGenerica_setState(&asd,0);
+    array = eGenerica_crearVector(TAMBASE);
 
-    printf("%d",asd.estado);
+    printf("%d",array->estado);
     return 0;
 }

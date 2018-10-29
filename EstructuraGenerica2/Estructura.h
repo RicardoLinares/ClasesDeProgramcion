@@ -16,7 +16,7 @@ typedef struct
 {
     int id;
     char* nombre;
-    int natural;
+    int entero;
     int estado; // -1 LIBRE 0 OCUPADO 1 BAJA
 } eGenerica;
 
@@ -39,5 +39,7 @@ int eGenerica_generarId(eGenerica*, int);
 
 int eGenerica_setState(eGenerica*, int);
 
+int eGenerica_saveArray(eGenerica*, int);
 
+int eGenerica_loadArray(eGenerica*);
 #endif // ESTRUCTURA_H_INCLUDED

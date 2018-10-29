@@ -9,7 +9,7 @@ eGenerica* eGenerica_crearVector(int size)
     {
         for(i=0; i<size; i++)
         {
-
+            eGenerica_setState(vectorEstructura + i, LIBRE);
         }
     }
 
