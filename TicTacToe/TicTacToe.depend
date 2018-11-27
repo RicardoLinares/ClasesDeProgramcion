@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1543328482 source:d:\linares\tictactoe\board.c
+	"Board.h"
+
+1543328854 source:d:\linares\tictactoe\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	"Board.h"
+
+1543323757 d:\linares\tictactoe\board.h
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+
